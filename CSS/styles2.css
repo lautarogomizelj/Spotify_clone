@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-logo__signup{
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
+.contenedor-logo__signup img{
+    height: 40px;
+    cursor: pointer;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/*-------------*/
+.contenedor-logo__signup .row-text{
+    margin-top: 40px;
+    width: 100%;
+}
+.contenedor-logo__signup .row-text h1{
+    font-size: 27px;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+    line-height: 36px;
+}
+
+/*-------------*/
+.contenedor-logo__signup .row-button{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.contenedor-logo__signup .row-button .facebook{
+    border: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    background: rgb(24,119,242);
+    color: white;
+    transition: width, height .2s linear 0s;
+}
+
+.contenedor-logo__signup .row-button .facebook:hover{
+    width: 55%;
+    height: 55px;
+    color: white;
+}
+
+
+.contenedor-logo__signup .row-button .facebook{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}

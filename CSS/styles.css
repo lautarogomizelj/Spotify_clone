@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor-contenido1{
+    height: 750px;
+}
+
+/*-----Boton facebook-----*/
+#tres{
+    background: rgb(59,89,152);
+    color: white;
+    transition: background .2s linear 0s;
+    margin-bottom: 10px;
+}
+
+#tres:hover{
+    background: rgb(69, 103, 177);
+}
+
+#tres span{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#tres i {
+    font-size: 17px;
+    margin-right: 14px;
+}
+
+/*-----Boton apple-----*/
+#cuatro{
+    background: rgb(0, 0, 0);
+    color: white;
+    transition: background .2s linear 0s;
+    margin-bottom: 10px;
+}
+
+#cuatro:hover{
+    background: rgb(46, 46, 46);
+}
+
+#cuatro span{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#cuatro i {
+    font-size: 17px;
+    margin-right: 14px;
+}
+
+/*-----Boton google-----*/
+#cinco{
+    background: transparent;
+    border: 2px solid rgb(97, 100, 103);
+    color:  rgb(97, 100, 103);
+    margin-bottom: 10px;
+    transition: background .2s linear 0s;
+}
+
+#cinco:hover{
+    background: rgb(97, 100, 103);
+    color: white;
+}
+
+#cinco span{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#cinco i {
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+/*-----Boton phone-----*/
+#seis{
+    background: transparent;
+    border: 2px solid rgb(97, 100, 103);
+    color:  rgb(97, 100, 103);
+    transition: background .2s linear 0s;
+    margin-bottom: 15px;
+}
+
+#seis:hover{
+    background: rgb(97, 100, 103);
+    color: white;
+}
+
+#seis span{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/*-----Form-----*/
+form{
+    margin-top: 15px;
+    width: 100%;
+}
+
+form .label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222326;
+}
+
+form .input{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border: 1px solid rgb(151, 154, 158);
+    border-radius: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+#password{
+    margin-top: 10px;
+}
+
+form .input::placeholder{
+    font-size: 14px;
+}
+
+form .input:focus{
+    font-size: 14px;
+}
+
+.contenedor-contenido h1{
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(97,100,128);
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contenedor-contenido h1:hover{
+    color: #1da64d;
+}
+
+.contenedor-contenido a:active{
+    color: rgb(97,100,128);
+}
+
+/*-----------------*/
+
+.contenedor-contenido form .row-1{
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+}
+
+/*-------------------------*/
+
+
+.contenedor-contenido form .row-1 input[type="checkbox"]{
+    display: none;
+}
+
+.contenedor-contenido form .row-1 label{
+    margin-top: 10px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    color: rgb(97,100,103);
+    font-weight: 300;
+    display: inline-block;
+}
+
+.contenedor-contenido form .row-1 label::before{
+    content: "";
+    background: url('/Assets/circle.png');
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transform: scale(0) rotateZ(180deg);
+    transition: all .4s cubic-bezier(0.54, 0.01, 0, 1.49);
+}
+
+.contenedor-contenido form .row-1 input[type="checkbox"] + .contenedor-contenido form .row-1 label::before{
+    transform: scale(1) rotateZ(0deg);
+}
+
+.contenedor-contenido form .row-1 label::after{
+    content: "";
+    border: 2px solid green;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 50px;
+    border-radius: 50%;
+}
+
+/*---------------------------*/
+.contenedor-contenido form .row-1 .boton-1{
+    margin-left: 120px;
+    margin-bottom: 50px;
+    background: rgb(20,136,62);
+    height: 50px;
+    border-radius: 50px;
+    width: 200px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: background .2s linear 0s;
+    position: absolute;
+}
+
+.contenedor-contenido form .row-1 .boton-1:hover{
+    background: rgb(44, 184, 95);
+}
+
+/*--------------------*/
+
+.linea{
+    border-bottom: 1px solid rgb(218, 213, 213);
+    margin-top: 20px;
+}
